@@ -7,50 +7,42 @@ The objective of this repository includes:
 3. Analyse performance of various models
 
 Dataset used in the project is available in repository.
+Detailed explanation of process of analysis performed is listed in the document in repository.
+Outline of the steps taken to preprocess the data, including:
+- Handling missing values
+- Encoding categorical variables
+- Scaling/normalizing numerical features
+- Splitting the data into training and testing sets
+- Exploratory Data Analysis
+- Data Preprocessing
+## Model Training and Evaluation:
 
-Features:
-Describe the features or variables used in the analysis.
-Explain what each feature represents and its significance in the analysis.
-Data Preprocessing:
+Steps taken to train and evaluate each models:
+- Data cleaning and Null value filling
+- Feature engineering through correlation plots
+- Dataset split to form train and test sets
+- Fitting dataset into the model
+- Precting using test dataset
+- Evaluation metrics used (accuracy, RMSE, R-squared)
 
-Outline the steps taken to preprocess the data, including:
-Handling missing values
-Encoding categorical variables
-Scaling/normalizing numerical features
-Splitting the data into training and testing sets
-Exploratory Data Analysis (EDA):
+Machine learning models used in the analysis:
+- Decision Tree and Decision Tree Classifier
+- Random Forest and Random Forest Classifier
+- Linear Regression and Logistic Regression
 
-Summarize the insights gained from exploratory data analysis, such as:
-Distribution of target variable
-Correlation between features
-Any interesting patterns or trends observed in the data
-Machine Learning Models:
-
-Describe the machine learning models used in the analysis, such as:
-Decision Trees
-Random Forests
-Linear Regression
-Any other models relevant to your analysis
-Explain the rationale behind choosing these models.
-Model Training and Evaluation:
-
-Outline the steps taken to train and evaluate the models, including:
-Training process
-Evaluation metrics used (e.g., accuracy, RMSE, R-squared)
-Results obtained from each model
+## Results obtained from each model
+- Categorical Analysis
+- Regression Analysis
 
 ## Conclusion
 
-### Summarize the key findings and insights from the analysis
+Summarize the key findings and insights from the analysis : 
 - Male are dominant consumers of most of the bears in available dataset. While 1064 bears dominantly are consumed by males only 9 beers are dominantlly consumed by females.
-- ![Gender](images/gender.png)
-- The correlation plot shows strong correlation between some of the dependent variables with independent variables. The correlation is depicted below.
-- ![Correlation Plot](images/corrplot.png)
-- Although 'Alcohol/Content' do not significantly affect the results though the correlation is poor for these features.
-- The correlation of 'review/text' feature is also poor analysed through sentiment analysis
-- 
-Discuss any challenges faced during the project and how they were addressed.
-Mention potential future work or improvements to the analysis.
+  <img src="images/gender.png" alt="Alt Text" align="center">
+- The correlation plot shows strong correlation between some of the dependent variables with independent variables. The correlation is depicted below. Although 'Alcohol/Content' do not significantly affect the results though the correlation is poor for these features.
+- The correlation of 'review/text' feature is also poor only 0.325 analysed through sentiment analysis
+  <img src="images/corrplot.png" alt="Alt Text" align="center">
+
 
 ## Dependencies required to run the project
 
