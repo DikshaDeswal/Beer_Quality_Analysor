@@ -32,7 +32,9 @@ Machine learning models used in the analysis:
 
 ## Results obtained from each model
 - Categorical Analysis
+   <img src="images/classificationResu.png" alt="Alt Text" align="center">
 - Regression Analysis
+   <img src="images/regressionResult.png" alt="Alt Text" align="center">
 
 ## Conclusion
 
