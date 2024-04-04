@@ -7,7 +7,7 @@ The objective of this repository includes:
 3. Analyse performance of various models
 
 Dataset used in the project is available in repository. Characteristics and overview of dataset is as follow:
-![](images/teble.png)
+![](images/table.jpeg)
 
 Features:
 
