@@ -55,7 +55,7 @@ Summarize the key findings and insights from the analysis :
 - [Plotly : 5.8.0](https://plotly.com/) - Plot effective visualisations
 - [Seaborn : 0.11.2](https://seaborn.pydata.org/) - Plot effective visualisations
 - [Scikit-learn : 1.1.1](https://scikit-learn.org/stable/) - Machine learning algoritms
-- [NTLK : 3.8.1](https://www.nltk.org/) - Sentiment Aanalysis Toolkit
+- [NLTK : 3.8.1](https://www.nltk.org/) - Sentiment Aanalysis Toolkit
 
 
 ## Installation
